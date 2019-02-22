@@ -16,6 +16,7 @@ h5 {
 p {
     width: 920px;
 }
+
 body{
     background-image: url(../Basic-Portfolio/assets/images/country-quilt.png);
 }
@@ -25,9 +26,10 @@ body{
 }
 
 .media {
-    margin-top: 150px;
+    margin-top: 75px;
     background: white;
     width: 960px;
+    overflow: scroll;
 }
 
 .mr-3 {
@@ -43,6 +45,13 @@ body{
 }
 .navbar-light .navbar-brand {
     color: #4aaaa5;
+}
+
+.portfolio_image {
+    height: 275px;
+    width: 150px;
+    padding: 5px;
+    
 }
 
 footer {
