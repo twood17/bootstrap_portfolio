@@ -1,11 +1,59 @@
-*{
-    
+* {
+    width: 960px;
+    margin: 0 auto;
 }
 
+nav {
+    width: 100%;
+    background-color: white;
+}
+
+h5 {
+    color: #4aaaa5;
+    font-size: 25px;
+}
+
+p {
+    width: 920px;
+}
 body{
-    background-image: url(https://www.gannett-cdn.com/-mm-/25e0d721cfcbd7f3f43852fbe071e643ba3d076e/c=242-0-1439-898/local/-/media/2018/01/02/USATODAY/usatsports/img_wtw_spongebob01_0105_1_1_nc9j38e8_69782464.jpg?width=534&height=401&fit=crop)
+    background-image: url(../Basic-Portfolio/assets/images/country-quilt.png);
 }
 
-.jumbotron {
-    /* opacity */
+.navbar-brand {
+    color: #4aaaa5;
+}
+
+.media {
+    margin-top: 150px;
+    background: white;
+    width: 960px;
+}
+
+.mr-3 {
+    float: left;
+    height: 80px;
+    width: 80px;
+}
+
+.btn-primary {
+    color: #4aaaa5;
+    background-color: gray;
+    border-color: gray;
+}
+.navbar-light .navbar-brand {
+    color: #4aaaa5;
+}
+
+footer {
+    background-color: #666666;
+    padding-top: 50px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
